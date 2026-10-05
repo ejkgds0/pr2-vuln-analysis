@@ -1,0 +1,11 @@
+cwe_id,cwe_name,rank_2025,owasp_category,typical_impact
+CWE-79,Cross-site Scripting,1,A03 Injection,Захват сессии, выполнение чужого JS в браузере жертвы
+CWE-89,SQL Injection,2,A03 Injection,Утечка данных, обход аутентификации
+CWE-78,OS Command Injection,9,A03 Injection,Удалённое выполнение кода, полный контроль над сервером
+CWE-22,Path Traversal,-,A01 Broken Access Control,Чтение произвольных файлов, утечка секретов
+CWE-95,Code Injection (eval),-,A03 Injection,Выполнение произвольного кода
+CWE-502,Insecure Deserialization,-,A08 Integrity Failures,Удалённое выполнение кода через вредоносный pickle
+CWE-798,Hardcoded Credentials,-,A07 Authentication Failures,Несанкционированный доступ при утечке кода
+CWE-327,Weak Hash Algorithm,-,A02 Cryptographic Failures,Подбор пароля по хешу (MD5 взламывается быстро)
+CWE-489,Active Debug Code,-,A05 Security Misconfiguration,Удалённое выполнение кода через Werkzeug-отладчик
+CWE-352,Missing CSRF Protection,-,A01 Broken Access Control,Выполнение действий от имени пользователя без его ведома
